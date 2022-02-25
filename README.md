@@ -1,1 +1,1 @@
-# CloudBased_Analog_Hackathon_MemioryRead
+# CloudBased_Analog_Hackathon_MemoryRead
