@@ -102,6 +102,8 @@ Read Time = Reaction time + (Total time taken from bitcell to SA)
 ![Reference Circuit Diagram](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead/blob/main/Circuit%20Diagrams/Sense_schematic.png?raw=true)
 
 * **Device Sizes**
+
+
 | Devices |  W/L     (u/u)           |
 | :-------- |  :------------------------- |
 | `Precharge Devies` |  0.12 / 0.03 |
