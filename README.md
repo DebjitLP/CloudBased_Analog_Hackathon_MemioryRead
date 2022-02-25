@@ -49,6 +49,7 @@ The objective of SRAM cell design is to arrive at an optimal cell ratio and opti
 So, the strength of the devices is in the following order Pulldown > Passgates > Pullup. 
 
 Length greater than minimum technology size is used to prevented any unwanted leakage.
+All the simulations are performed using Synopsys 28nm PDK and at TT 25 C.
 
 * **SRAM Circuit Diagram**
 
@@ -157,18 +158,22 @@ Similarly, for demonstrating the read 0 operation, QB node of the SRAM cell is i
 * **Stimulus of various Signals are given as follows**
 
  - Bitline Precharge:
+
 ![Reference Circuit Diagram](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead/blob/main/Stimulus/BPCH.png?raw=true)
 
 
  - Wordline:
+
 ![Reference Circuit Diagram](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead/blob/main/Stimulus/WL.png?raw=true)
 
 
  - Precharge:
+
 ![Reference Circuit Diagram](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead/blob/main/Stimulus/PCH.png?raw=true)
 
 
  - Sense Enable:
+
 ![Reference Circuit Diagram](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead/blob/main/Stimulus/SEN.png?raw=true)
 
 
