@@ -55,6 +55,8 @@ Length greater than minimum technology size is used to prevented any unwanted le
 ![Reference Circuit Diagram](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead/blob/main/Circuit%20Diagrams/SRAM_schematic.png?raw=true)
 
 * **Device Sizes**
+
+
 | Devices |  W/L     (u/u)           |
 | :-------- |  :------------------------- |
 | `Precharge Devies` |  1.6 / 0.03 |
@@ -154,16 +156,19 @@ Similarly, for demonstrating the read 0 operation, QB node of the SRAM cell is i
 
 * **Stimulus of various Signals are given as follows**
 
-Bitline Precharge:
+ - Bitline Precharge:
 ![Reference Circuit Diagram](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead/blob/main/Stimulus/BPCH.png?raw=true)
 
-Wordline:
+
+ - Wordline:
 ![Reference Circuit Diagram](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead/blob/main/Stimulus/WL.png?raw=true)
 
-Precharge:
+
+ - Precharge:
 ![Reference Circuit Diagram](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead/blob/main/Stimulus/PCH.png?raw=true)
 
-Sense Enable:
+
+ - Sense Enable:
 ![Reference Circuit Diagram](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead/blob/main/Stimulus/SEN.png?raw=true)
 
 
