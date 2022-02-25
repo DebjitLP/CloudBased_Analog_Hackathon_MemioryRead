@@ -55,6 +55,7 @@ Length greater than minimum technology size is used to prevented any unwanted le
 ![Reference Circuit Diagram](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead/blob/main/Circuit%20Diagrams/SRAM_schematic.png?raw=true)
 
 * **Device Sizes**
+
 | Devices |  W/L     (u/u)           |
 | :-------- |  :------------------------- |
 | `Precharge Devies` |  1.6 / 0.03 |
