@@ -158,12 +158,12 @@ Similarly, for demonstrating the read 0 operation, QB node of the SRAM cell is i
 
 * **Stimulus of various Signals are given as follows**
 
- - Bitline Precharge:
+ - Wordline:
 
 ![Reference Circuit Diagram](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead/blob/main/Stimulus/BPCH.png?raw=true)
 
 
- - Wordline:
+ - Bitline Precharge:
 
 ![Reference Circuit Diagram](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead/blob/main/Stimulus/WL.png?raw=true)
 
