@@ -129,12 +129,12 @@ Read Time = Reaction time + (Total time taken from bitcell to SA)
 
 * BLB Discharging - Leading to a read 0.
 
-![Reference Circuit Diagram](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead/blob/main/Waveforms/read0_sense.png?raw=true)
+![Reference Circuit Diagram](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead/blob/main/Waveforms/read0_s.png?raw=true)
 
 
 * BLB Discharging - Leading to a read 0.
 
-![Reference Circuit Diagram](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead/blob/main/Waveforms/read1_sense.png?raw=true)
+![Reference Circuit Diagram](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead/blob/main/Waveforms/read1_s.png?raw=true)
 
 
 ## Memory Read Operation
