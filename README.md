@@ -111,6 +111,7 @@ Read Time = Reaction time + (Total time taken from bitcell to SA)
 | `Pullup Devices` | 0.1 / 0.04 | 
 | `Pass Gates` | 0.5 / 0.03 |
 | `Pull Down devies` | 1 / 0.04 |   
+| `Footer NMOS` | 1.5 / 0.03 |   
 | `Load Inverter PMOS` | 0.9 / 0.03 |   
 | `Load Inverter NMOS` | 0.5 / 0.03 |   
 | `Output PMOS` | 0.9 / 0.03 |   
@@ -132,7 +133,7 @@ Read Time = Reaction time + (Total time taken from bitcell to SA)
 ![Reference Circuit Diagram](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead/blob/main/Waveforms/read0_s.png?raw=true)
 
 
-* BLB Discharging - Leading to a read 0.
+* BL Discharging - Leading to a read 1.
 
 ![Reference Circuit Diagram](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead/blob/main/Waveforms/read1_s.png?raw=true)
 
