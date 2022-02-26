@@ -70,7 +70,7 @@ All the simulations are performed using Synopsys 28nm PDK and at TT 25 C.
 | Parameter |  Specification                |
 | :-------- |  :------------------------- |
 | `Max Vbump` | 206 mV |
-| `Max BL Discharge` | 31 mV |
+| `Max BL Discharge` | 30 mV |
 
 * **Waveforms**
 
