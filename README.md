@@ -27,8 +27,8 @@ Internal nodes are resolved to 1 and 0 based on differential polarity via positi
 | Parameter |  Specification                |
 | :-------- |  :------------------------- |
 | `Operating Voltage` |  1 V |
-| `SEN-Q Latch Delay (Read 0) ` | >150 ps | 
-| `SEN-Q Latch Delay (Read 1) ` | >150 ps |
+| `SEN-Q Latch Delay (Read 0) ` | < 150 ps | 
+| `SEN-Q Latch Delay (Read 1) ` | < 150 ps |
 | `Bitline Load` |  100 fF |    
 | `Output Load` |  10 fF |    
 
