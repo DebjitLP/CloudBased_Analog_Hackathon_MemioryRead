@@ -38,7 +38,7 @@ Internal nodes are resolved to 1 and 0 based on differential polarity via positi
 
 * **Reference Waveforms**
 
-![Reference Circuit Diagram](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemioryRead/blob/main/Waveforms/wav.png?raw=true)
+![Reference Circuit Diagram](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead/blob/main/Waveforms/wavef.png?raw=true)
 
 
 
