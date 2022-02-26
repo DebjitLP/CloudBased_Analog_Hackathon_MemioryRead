@@ -115,8 +115,8 @@ Read Time = Reaction time + (Total time taken from bitcell to SA)
 | `Load Inverter NMOS` | 0.5 / 0.03 |   
 | `Output PMOS` | 0.9 / 0.03 |   
 | `Output NMOS` | 0.5 / 0.03 |    
-| `Latch PMOS` | 0.18 / 0.03 |   
-| `Latch NMOS` | 0.1 / 0.03 |   
+| `Latch PMOS` | 0.24 / 0.03 |   
+| `Latch NMOS` | 0.15 / 0.03 |   
 
 * **Achieved Read Specification**
 
@@ -255,6 +255,7 @@ xm3 q wl bl gnd_1 n105 w=0.2u l=0.04u nf=1 m=1
 
 
 ```bash
+
 *  Generated for: PrimeSim
 *  Design library name: cp_sense_amplifier
 *  Design cell name: sense_amplifier
@@ -262,7 +263,7 @@ xm3 q wl bl gnd_1 n105 w=0.2u l=0.04u nf=1 m=1
 .lib 'saed32nm.lib' TT
 .param diff='v(/BL) - v(/BLB)'
 *Custom Compiler Version S-2021.09
-*Fri Feb 25 18:52:19 2022
+*Sat Feb 26 05:52:47 2022
 
 
 ********************************************************************************
@@ -272,8 +273,8 @@ xm3 q wl bl gnd_1 n105 w=0.2u l=0.04u nf=1 m=1
 * View Search List : hspice hspiceD schematic spice veriloga
 * View Stop List   : hspice hspiceD
 ********************************************************************************
-xm20 vdd net70 dout vdd p105 w=0.18u l=0.03u nf=1 m=1
-xm18 vdd dout net70 vdd p105 w=0.18u l=0.03u nf=1 m=1
+xm20 vdd net70 dout vdd p105 w=0.24u l=0.03u nf=1 m=1
+xm18 vdd dout net70 vdd p105 w=0.24u l=0.03u nf=1 m=1
 xm16 vdd net51 dout vdd p105 w=0.9u l=0.03u nf=1 m=1
 xm14 net55 sat vdd vdd p105 w=0.9u l=0.03u nf=1 m=1
 xm12 net51 net5 vdd vdd p105 w=0.9u l=0.03u nf=1 m=1
@@ -285,19 +286,24 @@ xm4 saf pch vdd vdd p105 w=0.12u l=0.03u nf=1 m=1
 xm3 sat saf vdd vdd p105 w=0.1u l=0.04u nf=1 m=1
 xm2 sat pch vdd vdd p105 w=0.12u l=0.03u nf=1 m=1
 xm0 net5 saf vdd vdd p105 w=0.9u l=0.03u nf=1 m=1
-xm21 gnd_1 net70 dout gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
-xm19 gnd_1 dout net70 gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
+xm21 gnd_1 net70 dout gnd_1 n105 w=0.15u l=0.03u nf=1 m=1
+xm19 gnd_1 dout net70 gnd_1 n105 w=0.15u l=0.03u nf=1 m=1
 xm17 gnd_1 net55 dout gnd_1 n105 w=0.5u l=0.03u nf=1 m=1
 xm15 net55 sat gnd_1 gnd_1 n105 w=0.5u l=0.03u nf=1 m=1
 xm13 net51 net5 gnd_1 gnd_1 n105 w=0.5u l=0.03u nf=1 m=1
-xm9 net35 sen gnd_1 gnd_1 n105 w=1.5u l=0.03u nf=1 m=1
+xm9 net35 sen gnd_1 gnd_1 n105 w=1u l=0.03u nf=1 m=1
 xm8 saf sat net35 gnd_1 n105 w=1u l=0.04u nf=1 m=1
 xm7 sat saf net35 gnd_1 n105 w=1u l=0.04u nf=1 m=1
 xm1 net5 saf gnd_1 gnd_1 n105 w=0.5u l=0.03u nf=1 m=1
 
 
 
-.tran '1f' '10.25n' name=tran
+
+
+
+
+
+.tran '1f' '7.5n' name=tran
 .measure tran mydelay TRIG AT='0' TARG v(dout) VAL='0.9' RISE='0.9' TD='0'
 .measure tran offset FIND 'v(offset)' AT='mydelay'
 
@@ -321,7 +327,12 @@ xm1 net5 saf gnd_1 gnd_1 n105 w=0.5u l=0.03u nf=1 m=1
 .option primesim_mcbrief = 1
 
 
+
+
+
+
 .end
+
 
 ```
 
@@ -330,6 +341,8 @@ xm1 net5 saf gnd_1 gnd_1 n105 w=0.5u l=0.03u nf=1 m=1
 
 
 ```bash
+
+
 *  Generated for: PrimeSim
 *  Design library name: memory_read_sram_SA
 *  Design cell name: read_operation
@@ -337,7 +350,7 @@ xm1 net5 saf gnd_1 gnd_1 n105 w=0.5u l=0.03u nf=1 m=1
 .lib 'saed32nm.lib' TT
 
 *Custom Compiler Version S-2021.09
-*Fri Feb 25 18:53:38 2022
+*Sat Feb 26 05:51:56 2022
 
 
 ********************************************************************************
@@ -354,8 +367,8 @@ xm29 bl bpch vdd vdd p105 w=1.6u l=0.03u nf=1 m=1
 xm28 blb bpch vdd vdd p105 w=1.6u l=0.03u nf=1 m=1
 xm23 q qb vdd vdd p105 w=0.1u l=0.04u nf=1 m=1
 xm22 qb q vdd vdd p105 w=0.1u l=0.04u nf=1 m=1
-xm20 vdd net2 dout vdd p105 w=0.18u l=0.03u nf=1 m=1
-xm18 vdd dout net2 vdd p105 w=0.18u l=0.03u nf=1 m=1
+xm20 vdd net2 dout vdd p105 w=0.24u l=0.03u nf=1 m=1
+xm18 vdd dout net2 vdd p105 w=0.24u l=0.03u nf=1 m=1
 xm16 vdd net5 dout vdd p105 w=0.9u l=0.03u nf=1 m=1
 xm14 net1 sat vdd vdd p105 w=0.9u l=0.03u nf=1 m=1
 xm12 net5 net4 vdd vdd p105 w=0.9u l=0.03u nf=1 m=1
@@ -373,8 +386,8 @@ xm27 qb wl blb gnd_1 n105 w=0.2u l=0.04u nf=1 m=1
 xm26 q qb gnd_1 gnd_1 n105 w=0.25u l=0.04u nf=1 m=1
 xm25 qb q gnd_1 gnd_1 n105 w=0.25u l=0.04u nf=1 m=1
 xm24 q wl bl gnd_1 n105 w=0.2u l=0.04u nf=1 m=1
-xm21 gnd_1 net2 dout gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
-xm19 gnd_1 dout net2 gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
+xm21 gnd_1 net2 dout gnd_1 n105 w=0.15u l=0.03u nf=1 m=1
+xm19 gnd_1 dout net2 gnd_1 n105 w=0.15u l=0.03u nf=1 m=1
 xm17 gnd_1 net1 dout gnd_1 n105 w=0.5u l=0.03u nf=1 m=1
 xm15 net1 sat gnd_1 gnd_1 n105 w=0.5u l=0.03u nf=1 m=1
 xm13 net5 net4 gnd_1 gnd_1 n105 w=0.5u l=0.03u nf=1 m=1
@@ -385,6 +398,13 @@ xm1 net4 saf gnd_1 gnd_1 n105 w=0.5u l=0.03u nf=1 m=1
 c52 d gnd_1 c=10f
 c11 blb gnd_1 c=100f
 c10 bl gnd_1 c=100f
+
+
+
+
+
+
+
 
 .tran '1f' '1000p' name=tran
 
@@ -400,9 +420,16 @@ c10 bl gnd_1 c=100f
 
 .option primesim_output=wdf
 
+
 .option parhier = LOCAL
 
+
+
+
+
+
 .end
+
 
 ```
 
