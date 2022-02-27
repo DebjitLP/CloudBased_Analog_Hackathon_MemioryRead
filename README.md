@@ -11,7 +11,7 @@
 * [Tools Used](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead#tools-used)
 * [Working](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead#working)
 * [SRAM Cell Design](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead#sram-cell-design)
-* [Sense Amplifier Design](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead#abstract)
+* [Sense Amplifier Design](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead#sense-amplifier-design)
 * [Memory Read Operation](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead#memory-read-operation)
 * [Netlist](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead#netlist)
 * [Author](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead#author)
