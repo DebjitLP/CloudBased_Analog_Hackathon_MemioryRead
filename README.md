@@ -5,7 +5,7 @@
 
 
 
-## Table of Contents
+## Contents
 
 * [Abstract](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead#abstract)
 * [Tools Used](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead#tools-used)
