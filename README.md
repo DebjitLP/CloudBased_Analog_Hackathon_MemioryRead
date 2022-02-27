@@ -8,6 +8,24 @@ the latching circuit are present in the IO region of the memory unit used to com
 paper the read operation of memory composed of SRAM cell is described.
 
 
+
+## Table of Contents
+
+* [Abstract](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead#abstract)
+* [Tools Used](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead#tools-used)
+* [Working](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead#working)
+* [SRAM Cell Design](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead#sram-cell-design)
+* [Sense Amplifier Design](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead#abstract)
+* [Memory Read Operation](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead#memory-read-operation)
+* [Netlist](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead#netlist)
+* [Author](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead#author)
+* [Acknowledgements](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead#acknowledgements)
+* [References](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead#references)
+
+
+
+
+
 ## Tools Used
 
 - Synopsys Custom Compiler
