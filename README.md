@@ -1,11 +1,7 @@
 
 # Memory Read operation using 6T SRAM cell and Conventional Latch type Sense Amplifier 
-## Abstract
 
-Integrated SRAMs take about 70 percent of the chip area in SoCs. SRAM constitute of 6T cell which is the
-functional single bit storage element. Sense Amplifiers along with
-the latching circuit are present in the IO region of the memory unit used to complete the read operation of a SRAM cell. In this
-paper the read operation of memory composed of SRAM cell is described.
+
 
 
 
@@ -22,6 +18,17 @@ paper the read operation of memory composed of SRAM cell is described.
 * [Acknowledgements](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead#acknowledgements)
 * [References](https://github.com/DebjitLP/CloudBased_Analog_Hackathon_MemoryRead#references)
 
+
+
+
+
+
+## Abstract
+
+Integrated SRAMs take about 70 percent of the chip area in SoCs. SRAM constitute of 6T cell which is the
+functional single bit storage element. Sense Amplifiers along with
+the latching circuit are present in the IO region of the memory unit used to complete the read operation of a SRAM cell. In this
+paper the read operation of memory composed of SRAM cell is described.
 
 
 
