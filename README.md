@@ -475,7 +475,7 @@ Debjit Batabyal , Indraprastha Institute of Information Technoology Delhi
  - Kunal Ghosh, Co-founder, VSD Corp. Pvt. Ltd. - kunalpghosh@gmail.com
  - https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/
  - Synopsys India
- - [VSD VLSI System Design](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [VSD VLSI System Design](https://www.vlsisystemdesign.com/)
  - Chinmay panda, IIT Hyderabad
  - Sameer Durgoji, NIT Karnataka
 ## References
